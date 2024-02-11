@@ -7,8 +7,8 @@ This is a Nuxt.js application built with Vue.js and Tailwind CSS, using PrimeVue
 1. Clone the repository: https://github.com/arield13/nuxt-api.git
 
 
-2. Navigate to the project directory: 
- cd red-test
+2. Navigate to the project directory:
+ cd nuxt-api
 
 
 3. Install dependencies: 
@@ -38,12 +38,12 @@ To run the application using Docker, make sure you have Docker installed on your
 
 1. Build the Docker image:
 
- docker build -t red-test.
+ docker build -t nuxt-api.
 
  
 2. Run the Docker container:
 
-docker run -d -p 8080:80 red-test
+docker run -d -p 8080:80 nuxt-api
 
 
 The application will be available at [http://localhost:8080](http://localhost:8080).
